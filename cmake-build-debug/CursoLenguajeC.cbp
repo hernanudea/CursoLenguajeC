@@ -79,6 +79,15 @@
 		<Unit filename="D:/home/h/workspace/CLion/CursoLenguajeC/main.c">
 			<Option target="CursoLenguajeC"/>
 		</Unit>
+		<Unit filename="D:/home/h/workspace/CLion/CursoLenguajeC/v07_funtion.h">
+			<Option target="CursoLenguajeC"/>
+		</Unit>
+		<Unit filename="D:/home/h/workspace/CLion/CursoLenguajeC/v10_pointer.h">
+			<Option target="CursoLenguajeC"/>
+		</Unit>
+		<Unit filename="D:/home/h/workspace/CLion/CursoLenguajeC/v11_usando_puntero.h">
+			<Option target="CursoLenguajeC"/>
+		</Unit>
 		<Unit filename="D:/home/h/workspace/CLion/CursoLenguajeC/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

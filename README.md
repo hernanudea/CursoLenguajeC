@@ -31,3 +31,64 @@ Este repositorio se ira completando a medida que se haga el curso en la platafor
 		unsigned char	1 bytes		0 to 255
 
 
+
+### Uso y definición de funciones
+- Valor Retorno
+- Nombre
+- Lista argumentos
+- Consjunto de isntruciones
+
+
+### Directivas de pre-compilador
+son los instrucciones iniciales, como las sigueintes:
+- include <stdio.h>
+- include <conio.h>
+- include <string.h>
+- include <stdlib.h>
+- include <math.h>
+- include <time.h>
+- include <ctype.h>
+- include <signal.h>
+- include <locale.h>
+- include <errno.h>
+- include <assert.h>
+
+- Las funciones declaradas en stdio.h pueden clasificarse en dos categorías: funciones de manipulación de ficheros y funciones de manipulación de entradas y salidas. 
+- Las funciones que pertenecen a conio.h declara varias funciones útiles para mejorar el rendimiento de la «entrada y salida por consola»
+- Las funciones que pertenecen a stdlib.h pueden clasificarse en las siguientes categorías: conversión, memoria, control de procesos, ordenación y búsqueda, matemáticas.
+- string.h es un archivo de la Biblioteca estándar del lenguaje de programación C que contiene la definición de macros, constantes, funciones y tipos y algunas operaciones de manipulación de memoria.
+- math.h es un archivo de cabecera de la …biblioteca estándar del lenguaje de programación C diseñado para operaciones matemáticas básicas.
+- time.h relacionado con formato de hora y fecha es un archivo de cabecera de la biblioteca estándar del lenguaje de programación C que contiene funciones para manipular y formatear la fecha y hora del sistema. (https://es.wikipedia.org/wiki/Time.h)
+- ctype.h es un archivo de cabecera de la biblioteca estándar del lenguaje de programación C diseñado para operaciones básicas con caracteres.
+- signal.h es un archivo de cabecera definido en la Biblioteca estándar de C para especificar como un programa maneja señales mientras se ejecuta.
+- locale.h (https://es.cppreference.com/w/c/locale/LC_categories)
+- errno.h (https://es.cppreference.com/w/c/locale/LC_categories)
+- assert.h proporcionar una definicion de la macro assert, que imprime un mensaje de error y aborta el programa(https://es.wikipedia.org/wiki/Assert.h)
+
+## Punteros
+- Es una memoria
+- Contiene direcciones de memoria
+
+En el lenguaje C, el paso por referencia se hace a por medio de punteros.
+
+### Aritmética de punteros
+
+- Podemos incrementar y decrementar los punteros
+- Debemos tener cuidado, ya que esta nueva dirección de memoria podria estar ocupada
+
+
+### Arreglos
+
+Los arreglos tienen una relación con los punteros, de hecho, todos los arreglos son punteros, pero no todos los punteros son arreglos.
+
+Si accedemos a un indice que no existe en un array, no falla, simplemte, se muestra una posici{on de memoria que no corresponde al arreglo.
+
+## String 
+
+- No existe un primitivo para manejo de string en C
+- Se usa un puntero a caracter
+- los string terminan en el caracter especial \0, debe ser considerado cuando especifiquemos el tamaño
+
+
+ 
+  
