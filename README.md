@@ -113,3 +113,10 @@ struct {
 - Podemos definir nuestros prtopios tipos de datos partiendo de los ya existentes.
 - Ejemplo, si necesitamos un telefono, podemos definir una tipo personalizado, asi, si este cambia, no seria necesario modificarlo mas de una vez.
   
+  
+## Crear bibliotecas propias
+- Una liblioteca o libreria, se divide en dos archivos, Encabezados e Implementación
+- para compilar, debo incluir el archivo de la implementación tambien, esto se conoce como linkeo
+- Example: gcc -Wall v19_my_lib_usage.c v19_my_lib.c -o v19_my_lib
+
+   

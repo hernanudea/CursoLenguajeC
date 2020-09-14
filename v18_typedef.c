@@ -3,21 +3,22 @@
 #include <string.h>
 
 #define N 100
+typedef char NAME[N];
+typedef int AGE;
 
 struct PERSON {
-    char name[N];
-    int age;
+    NAME name;
+    AGE age;
 };
 void fillPersonData(struct PERSON *person, const char *name, int age);
 
 
 void fillPersonData(struct PERSON *person, const char *name, int age){
     if (strlen(name) < N ) {
-        // strcpy((*person).name, name); otra forma de hacerlo
+        // strcpy((*person).name, name); //otra forma de hacerlo
         strcpy(person->name, name); //aqui con arrow
         person->age = age;
     }
-
 }
 
 
