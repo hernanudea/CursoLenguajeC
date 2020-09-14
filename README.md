@@ -90,5 +90,26 @@ Si accedemos a un indice que no existe en un array, no falla, simplemte, se mues
 - los string terminan en el caracter especial \0, debe ser considerado cuando especifiquemos el tamaño
 
 
- 
+## Argumentos
+- Siempre se recibe como primer parametro, el nombre del aplicativo
+- Por seguridad, si deseo copiar el tamaño parametro en un arreglo, debo primero verificar el tamaño del arreglo
+
+
+## Definición de tipos de datos estructurados
+- Podemos definir una estructura de la siguiente manera:
+```c
+struct {
+        char name[N];
+        int age;
+    } person;
+``` 
+- Podemos usar el arrow ->, para hacer referencia a un apuntador con su atributo, las siguientes lineas son iguales:
+1. (*person).age = age; 
+2. person->age = age;
+  
+  
+## Alias de tipos de datos
+- typedef
+- Podemos definir nuestros prtopios tipos de datos partiendo de los ya existentes.
+- Ejemplo, si necesitamos un telefono, podemos definir una tipo personalizado, asi, si este cambia, no seria necesario modificarlo mas de una vez.
   

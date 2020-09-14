@@ -1,2 +1,3 @@
-D:/home/h/workspace/CLion/CursoLenguajeC/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/home/h/workspace/CLion/CursoLenguajeC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/hernan/Workspace/clion/CursoLenguajeC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/hernan/Workspace/clion/CursoLenguajeC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/hernan/Workspace/clion/CursoLenguajeC/cmake-build-debug/CMakeFiles/CursoLenguajeC.dir
