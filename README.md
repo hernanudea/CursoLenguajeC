@@ -119,4 +119,7 @@ struct {
 - para compilar, debo incluir el archivo de la implementación tambien, esto se conoce como linkeo
 - Example: gcc -Wall v19_my_lib_usage.c v19_my_lib.c -o v19_my_lib
 
-   
+## Manejo dinámico de la memoria
+- malloc: guarda la memoria para un dato nuevo si la lista está vacia
+- realloc: guarda memoria para un elemento mas en la lista
+
