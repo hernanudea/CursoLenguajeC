@@ -41,5 +41,6 @@ int main(int argc, char *argv[]) {
     for (int i = 0; i < listSize; i++) {
         printf("%s\t\t%s\n", list[i].name, list[i].email);
     }
+    free(list); // liberamos la memoria
     return 0;
 }

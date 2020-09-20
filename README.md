@@ -123,3 +123,13 @@ struct {
 - malloc: guarda la memoria para un dato nuevo si la lista está vacia
 - realloc: guarda memoria para un elemento mas en la lista
 
+
+### Memory leaks y Garbage Collectors
+
+- Con free(), podemos liberar la memoria, entre los parentesis ponemos la primera dirección del apuntador.
+- Para cuando es tan fácil, debemos usar Valgrind.
+
+Recomendaciones para un uso correcto de la memoria, inicializar los punteros con null y validar antes de reservar la memoria, como en el ejemplo v22_leak.c
+
+### Listas enlazadas
+- Encadena nodos, y hace uso de memoria no continúa

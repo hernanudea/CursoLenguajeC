@@ -1,4 +1,11 @@
-/opt/JetBrains/clion-2020.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/cc -G "CodeBlocks - Unix Makefiles" /home/hernan/Workspace/clion/CursoLenguajeC
+/opt/JetBrains/clion-2020.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/hernan/Workspace/clion/CursoLenguajeC
+-- The C compiler identification is GNU 10.2.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/hernan/Workspace/clion/CursoLenguajeC/cmake-build-debug
