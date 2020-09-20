@@ -133,3 +133,20 @@ Recomendaciones para un uso correcto de la memoria, inicializar los punteros con
 
 ### Listas enlazadas
 - Encadena nodos, y hace uso de memoria no continúa
+
+### Libreria Math
+- Operaciones matematicas
+- Agremar -lm (library math), para compilar
+- ctime(), permite combertir una fecha en un string
+
+### Archivos
+- FILE
+
+modos de operación:
+- "r" : abrir un archivo para lectura, el fichero debe existir.
+- "w" : abrir un archivo para escritura, se crea si no existe o se sobreescribe si existe.
+- "a" : abrir un archivo para escritura al final del contenido, si no existe se crea.
+- "r+" : abrir un archivo para lectura y escritura, el fichero debe existir.
+- "w+" : crear un archivo para lectura y escritura, se crea si no existe o se sobreescribe si existe.
+- "r+b ó rb+" : Abre un archivo en modo binario para actualización (lectura y escritura).
+- "rb" : Abre un archivo en modo binario para lectura.
