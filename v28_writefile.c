@@ -7,6 +7,7 @@ int main(int argc, const char *argv[]) {
     FILE *out;
     char buffer[100];
 
+    // Verificamos que el archivo pueda ser abierto
     if (!(out = fopen(argv[1], "w"))) {
         printf("No puedo escribir el archivo %s.\n", argv[1]);
     }
