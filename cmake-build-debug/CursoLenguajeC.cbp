@@ -88,6 +88,9 @@
 		<Unit filename="/home/hernan/Workspace/clion/CursoLenguajeC/v11_usando_puntero.h">
 			<Option target="CursoLenguajeC"/>
 		</Unit>
+		<Unit filename="/home/hernan/Workspace/clion/CursoLenguajeC/v30_fork.c">
+			<Option target="CursoLenguajeC"/>
+		</Unit>
 		<Unit filename="/home/hernan/Workspace/clion/CursoLenguajeC/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -150,3 +150,17 @@ modos de operación:
 - "w+" : crear un archivo para lectura y escritura, se crea si no existe o se sobreescribe si existe.
 - "r+b ó rb+" : Abre un archivo en modo binario para actualización (lectura y escritura).
 - "rb" : Abre un archivo en modo binario para lectura.
+
+## Paralelismo
+
+### Fork
+- int pid = fork(); //crea un nuevo proceso que en principio ejecuta el mismo codigo del padre
+- getpid() // me da el PID del padre
+- wait()    // hace que el padre espere a que todos los hijos terminen para él terminar su ejecución
+- Las variables no se comparten entre procesos, 
+
+### Pipes
+- Si necesito que se comparta información entre procesos, debo crear un pipe, hace que un proceso escriba y el otro lea
+- Los pipes son comunicación bidireccional
+- Aplica para procesos pabre hijo
+

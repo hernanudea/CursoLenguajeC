@@ -170,6 +170,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CursoLenguajeC.dir/build.make CMakeFiles/CursoLenguajeC.dir/main.c.s
 .PHONY : main.c.s
 
+v30_fork.o: v30_fork.c.o
+
+.PHONY : v30_fork.o
+
+# target to build an object file
+v30_fork.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CursoLenguajeC.dir/build.make CMakeFiles/CursoLenguajeC.dir/v30_fork.c.o
+.PHONY : v30_fork.c.o
+
+v30_fork.i: v30_fork.c.i
+
+.PHONY : v30_fork.i
+
+# target to preprocess a source file
+v30_fork.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CursoLenguajeC.dir/build.make CMakeFiles/CursoLenguajeC.dir/v30_fork.c.i
+.PHONY : v30_fork.c.i
+
+v30_fork.s: v30_fork.c.s
+
+.PHONY : v30_fork.s
+
+# target to generate assembly for a file
+v30_fork.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CursoLenguajeC.dir/build.make CMakeFiles/CursoLenguajeC.dir/v30_fork.c.s
+.PHONY : v30_fork.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +209,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... v30_fork.o"
+	@echo "... v30_fork.i"
+	@echo "... v30_fork.s"
 .PHONY : help
 
 

@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/CursoLenguajeC.dir/main.c.o  -o CursoLenguajeC 
+/usr/bin/cc -g   CMakeFiles/CursoLenguajeC.dir/main.c.o CMakeFiles/CursoLenguajeC.dir/v30_fork.c.o  -o CursoLenguajeC 
